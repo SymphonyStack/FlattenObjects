@@ -27,4 +27,4 @@ const parse = (arr, count) => {
 };
 
 parse(arr, 0);
-console.log(JSON.stringify(parsed));
+console.log("##", JSON.stringify(parsed), "##");
