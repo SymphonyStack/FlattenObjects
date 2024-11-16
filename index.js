@@ -1,7 +1,7 @@
 let parsed = "";
 
 const args = process.argv.slice(2);
-const arr = [args[0]];
+const arr = JSON.parse([args[0]]);
 
 const parse = (arr, count) => {
   if (
