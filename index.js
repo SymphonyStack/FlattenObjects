@@ -1,6 +1,7 @@
 let parsed = "";
 
 const args = process.argv.slice(2);
+console.log("FROM TRANSFORMER", args, typeof args);
 const arr = JSON.parse([args[0]]);
 console.log("FROM TRANSFORMER", arr, typeof arr);
 
